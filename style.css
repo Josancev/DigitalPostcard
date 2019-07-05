@@ -1,0 +1,28 @@
+body{background: #171717; font-size: 16px; font-family: 'Open Sans', sans-serif;}
+
+
+.digitalPost{background: white; width: 550px; height: 300px; margin: auto; padding: 20px;
+    top: 50%; left: 50%; position: absolute; transform: translate(-50%,-50%);}
+
+.digitalPost-title {overflow: hidden;}
+
+.digitalPost-title img{max-width: 60px; float: right;}
+
+.digitalPost-square{overflow: hidden;}
+
+h1{font-size: 35px;}
+
+.digitalPost h1{margin:0;}
+
+.paragraph{width: 50%; display: inline-block; float: left;}
+
+.textBox input{display: inline-block; float: right;}
+
+input {font-size: 17px; font-family: 'Sans-serif', cursive;}
+
+
+.digitalPost-footer{padding: 10px; text-align:center;}
+
+.digitalPost-footer input [type=submit]{border: none; border-bottom: 1px solid gray;}
+
+.digitalPost-body input [type=text]{border:none; border-bottom: 1px solid gray; width: 250px;margin-bottom: 10px; padding: 5px;}
